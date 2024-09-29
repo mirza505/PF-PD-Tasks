@@ -13,7 +13,7 @@ cout<<"The cost of fertilizer per pound = $"<<c_f_p<<endl;
 cout<<"Enter the area per square foot tht can b covered by the bag";
 cin>>area;
 c_sq = c_b/area;
-cout<<"Cost fertilizing per square foot = $"<<c_sq;
+cout<<"Cost fertilizing per square foot = $"<<c_sq<<endl;
 
 
 

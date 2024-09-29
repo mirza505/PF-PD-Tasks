@@ -27,7 +27,7 @@ discount(d_name,purchase);
 			}	
 		if(day!="sunday")
 		{
-			pay_amo = purchase_amo;
+			pay_amo = purchase_amo - purchase_amo*(5.0/100.0);
 
 		}
 		
