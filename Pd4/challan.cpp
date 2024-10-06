@@ -12,7 +12,7 @@ main()
 }
 
 void checkSpeed(int car_speed)
-	{
+{
 		if(car_speed<=100)
 		{
 			cout<<"Perfect!You're going good";
@@ -24,5 +24,4 @@ void checkSpeed(int car_speed)
 		}
 
 
-
-	}
+}
