@@ -60,7 +60,7 @@ void tasks(int option)
 	cout<<"Your choice "<<customerChoice<<endl;
 	if(option==1)
 	{
-		if(customerChoice==1)
+		if(customerChoice=='1')
 		{
 			laptopInput();
 		}
@@ -155,7 +155,6 @@ void customer(string laptopBrand, string processor,int budget, int RAM, int gene
 		else if((budget>650000&&budget<67000)&&processor=="i5"&& generation==6 &&RAM==8 &&storage==128&&screenSize==14)
 		{
 			cout<<"Best budget according to data you provided isLenovo ThinkPad X1 ";
-1
 		}
 		else if((budget>67000&&budget<70000)&&processor=="i5"&& generation==8 &&RAM==16 &&storage==256&&screenSize==14)
 		{
